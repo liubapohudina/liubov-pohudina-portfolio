@@ -16,6 +16,11 @@ const ProjectDetails = lazy(() =>
     default: module.ProjectDetails,
   })),
 );
+const NotFound = lazy(() =>
+  import('./page/NotFound/NotFound').then((module) => ({
+    default: module.NotFound,
+  })),
+);
 
 function App() {
   return (
@@ -26,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects/:slug" element={<ProjectDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
       </AppLoader>

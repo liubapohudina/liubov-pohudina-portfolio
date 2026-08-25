@@ -122,5 +122,13 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "notFound": {
+    "badge": "Lost in the interface",
+    "titleStart": "This page doesn't",
+    "titleAccent": "exist.",
+    "description": "The page you're looking for may have been moved, removed, or never existed. Let's get you back somewhere useful.",
+    "home": "Back Home",
+    "projects": "View Projects"
   }
 }
