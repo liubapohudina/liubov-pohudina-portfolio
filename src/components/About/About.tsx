@@ -5,15 +5,15 @@ export const About = () => {
 
   const facts = [
     {
-      value: '4+',
+      value: '2+',
       label: t('about.facts.experience'),
     },
     {
-      value: '5+',
+      value: '6+',
       label: t('about.facts.projects'),
     },
     {
-      value: '2',
+      value: '3',
       label: t('about.facts.focus'),
     },
   ];
