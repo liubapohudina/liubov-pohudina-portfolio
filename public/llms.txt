@@ -1,0 +1,67 @@
+# Liubov Pohudina — Full Stack Developer & AI Automation Engineer
+
+This website is the professional portfolio of Liubov Pohudina, a Full Stack Developer and AI Automation Engineer.
+
+The portfolio presents selected commercial, full-stack, frontend, backend, and AI automation projects, professional experience, technical skills, and contact information.
+
+## About
+
+Liubov Pohudina specializes in building modern web applications, full-stack solutions, AI-powered automation systems, and business integrations.
+
+Core areas of expertise include:
+
+- Frontend development with React and TypeScript
+- Backend development with Node.js
+- Full-stack application development
+- AI automation and AI agents
+- n8n workflow automation
+- REST API integrations
+- Webhooks and third-party services
+- SEO and web performance optimization
+- Analytics and production deployment
+
+## Selected Projects
+
+The portfolio includes projects such as:
+
+- AI Audio Processing & Automation System
+- Renovation Business Website
+- TaskPro
+- AquaTrack
+- BrushBuddy
+- Food Boutique
+
+Detailed project case studies are available in the Projects section of the website.
+
+## Technologies
+
+React, TypeScript, JavaScript, Redux, Redux Toolkit, Node.js, MongoDB, Material UI, styled-components, n8n, AI Agents, OpenAI APIs, REST APIs, Webhooks, Swagger, Cloudflare, Google Analytics, Google Sheets, Web3Forms, and related web technologies.
+
+## Navigation
+
+- [Home](https://liubov-pohudina-portfolio.vercel.app/)
+- [About](https://liubov-pohudina-portfolio.vercel.app/#about)
+- [Skills](https://liubov-pohudina-portfolio.vercel.app/#skills)
+- [Projects](https://liubov-pohudina-portfolio.vercel.app/#projects)
+- [Experience](https://liubov-pohudina-portfolio.vercel.app/#experience)
+- [Contact](https://liubov-pohudina-portfolio.vercel.app/#contact)
+
+## Project Case Studies
+
+- [AI Audio Processing & Automation System](https://liubov-pohudina-portfolio.vercel.app/projects/ai-audio-automation)
+- [Renovation Business Website](https://liubov-pohudina-portfolio.vercel.app/projects/renovation-business)
+- [TaskPro](https://liubov-pohudina-portfolio.vercel.app/projects/taskpro)
+- [AquaTrack](https://liubov-pohudina-portfolio.vercel.app/projects/aquatrack)
+- [BrushBuddy](https://liubov-pohudina-portfolio.vercel.app/projects/brushbuddy)
+- [Food Boutique](https://liubov-pohudina-portfolio.vercel.app/projects/food-boutique)
+
+## Professional Profiles
+
+- [GitHub](https://github.com/liubapohudina)
+- [LinkedIn](https://www.linkedin.com/in/liubapohudina/)
+
+## Contact
+
+For professional opportunities, collaborations, and project inquiries, use the Contact section of the portfolio.
+
+- [Contact](https://liubov-pohudina-portfolio.vercel.app/#contact)
