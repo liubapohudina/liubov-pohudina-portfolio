@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "about": "Про мене",
+    "skills": "Навички",
+    "projects": "Проєкти",
+    "experience": "Досвід",
+    "contact": "Контакти",
+    "connect": "Зв'язатися"
+  },
+
+  "hero": {
+    "badge": "Full Stack Developer • AI Automation Engineer",
+    "titleStart": "Я створюю розумні",
+    "titleAccent": "цифрові рішення",
+    "titleEnd": "які масштабуються.",
+    "description": "Я створюю високопродуктивні вебзастосунки та системи AI-автоматизації, які допомагають бізнесу зростати, економити час і приймати рішення на основі даних.",
+    "viewWork": "Переглянути роботи",
+    "downloadCv": "Завантажити CV"
+  },
+  "contact": {
+    "eyebrow": "ПРАЦЮЙМО РАЗОМ",
+    "titleStart": "Маєте",
+    "titleAccent": "проєкт",
+    "titleEnd": "для мене?",
+    "description": "Я відкрита до нових можливостей, співпраці та цікавих проєктів.",
+    "button": "Зв'язатися",
+    "phone": "Телефон",
+    "email": "Email",
+    "location": "Локація"
+  },
+  "skills": {
+    "eyebrow": "Моя експертиза",
+    "titleStart": "Навички та",
+    "titleAccent": "технології",
+
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, Next.js, Redux, TypeScript, styled-components"
+    },
+
+    "backend": {
+      "title": "Backend",
+      "description": "Node.js, Express, MongoDB"
+    },
+
+    "automation": {
+      "title": "AI автоматизація",
+      "description": "n8n, AI Agents, Prompt Design, API Integration"
+    },
+
+    "devops": {
+      "title": "Tools & DevOps",
+      "description": "Git, Swagger, Cloudflare, GA4, Web3Forms, IONOS"
+    },
+
+    "soft": {
+      "title": "Soft Skills",
+      "description": "Лідерство, командна робота, відповідальність, тайм-менеджмент"
+    }
+  },
+  "projects": {
+    "eyebrow": "ОБРАНІ РОБОТИ",
+    "titleStart": "Обрані",
+    "titleAccent": "Проєкти",
+    "description": "Добірка проєктів, у яких я поєднувала frontend і backend розробку, full-stack функціональність, AI-автоматизацію та інтеграції для вирішення реальних бізнес-задач.",
+    "viewCase": "Детальніше"
+  },
+  "about": {
+    "eyebrow": "ПРО МЕНЕ",
+    "titleStart": "Створюю з",
+    "titleAccent": "метою",
+
+    "photoAlt": "Любов Погудіна",
+    "available": "Відкрита до пропозицій",
+
+    "role": "FULL STACK DEVELOPER • AI AUTOMATION ENGINEER",
+
+    "headlineStart": "Перетворюю ідеї на",
+    "headlineAccent": "працюючі системи",
+    "headlineEnd": "які створюють реальну цінність.",
+
+    "description": "Я full-stack розробниця, сфокусована на створенні сучасних вебзастосунків, масштабованої backend-функціональності та AI-систем автоматизації. Мені цікаво працювати з усім циклом продукту — від інтерфейсу й архітектури до інтеграцій, API та deployment.",
+
+    "descriptionSecond": "У своїй роботі я поєдную frontend і backend розробку з автоматизацією та AI-інструментами, щоб зменшувати ручну роботу, покращувати процеси та створювати надійні цифрові рішення для реальних бізнес-задач.",
+
+    "facts": {
+      "experience": "Роки досвіду",
+      "projects": "Проєкти",
+      "focus": "Основні напрями"
+    }
+  },
+  "experience": {
+    "eyebrow": "ДОСВІД",
+    "titleStart": "Професійний",
+    "titleAccent": "шлях",
+    "description": "Досвід створення високопродуктивних вебпродуктів, покращення технічної якості та роботи над AI-рішеннями у швидких продуктових командах.",
+
+    "columns": {
+      "period": "Компанія / Період",
+      "role": "Роль",
+      "impact": "Внесок та результат"
+    },
+
+    "boosta": {
+      "description": "Frontend-розробка у високонавантаженому arbitration-середовищі з фокусом на продуктивність, технічне SEO та оптимізацію інфраструктури.",
+      "highlights": {
+        "performance": "Розробляла та оптимізувала високопродуктивні вебзастосунки у швидкому high-load середовищі.",
+        "seo": "Працювала над швидкістю сторінок, технічним SEO та інтеграцією Cloudflare.",
+        "indexing": "Покращувала індексацію, accessibility та загальну технічну якість вебсторінок.",
+        "environment": "Працювала в arbitration-команді, де критично важливими були швидкість, стабільність та швидкі ітерації."
+      }
+    },
+
+    "revelint": {
+      "description": "Frontend-розробка для EVA-I — AI-платформи для автоматизації бізнес-процесів із фокусом на сучасний UI та перевикористовувану продуктову архітектуру.",
+      "highlights": {
+        "landings": "Розробляла landing pages та reusable UI components для продукту EVA-I.",
+        "auth": "Реалізовувала authorization flows та функціональність інтерфейсу застосунку.",
+        "seo": "Покращувала SEO, accessibility та структуру frontend.",
+        "analytics": "Інтегрувала Google Analytics і підтримувала продуктову аналітику."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Усі права захищені."
+  }
+}

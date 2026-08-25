@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "connect": "Let's Connect"
+  },
+  "hero": {
+    "badge": "Full Stack Developer • AI Automation Engineer",
+    "titleStart": "I build intelligent",
+    "titleAccent": "digital solutions",
+    "titleEnd": "that scale.",
+    "description": "I create high-performance web applications and AI automation systems that help businesses grow, save time and make data-driven decisions.",
+    "viewWork": "View My Work",
+    "downloadCv": "Download CV"
+  },
+  "contact": {
+    "eyebrow": "LET'S WORK TOGETHER",
+    "titleStart": "Have a",
+    "titleAccent": "project",
+    "titleEnd": "in mind?",
+    "description": "I'm always open to new opportunities, collaborations, and interesting projects.",
+    "button": "Let's Connect",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location"
+  },
+  "skills": {
+    "eyebrow": "My Expertise",
+    "titleStart": "Skills &",
+    "titleAccent": "Technologies",
+
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, Next.js, Redux, TypeScript, styled-components"
+    },
+
+    "backend": {
+      "title": "Backend",
+      "description": "Node.js, Express, MongoDB"
+    },
+
+    "automation": {
+      "title": "AI Automation",
+      "description": "n8n, AI Agents, Prompt Design, API Integration"
+    },
+
+    "devops": {
+      "title": "Tools & DevOps",
+      "description": "Git, Swagger, Cloudflare, GA4, Web3Forms, IONOS"
+    },
+
+    "soft": {
+      "title": "Soft Skills",
+      "description": "Leadership, Teamwork, Responsibility, Time Management"
+    }
+  },
+  "projects": {
+    "eyebrow": "FEATURED WORK",
+    "titleStart": "Selected",
+    "titleAccent": "Projects",
+    "description": "A selection of projects where I combined frontend and backend development, full-stack functionality, AI automation, and integrations to solve real business challenges.",
+    "viewCase": "View Case"
+  },
+  "about": {
+    "eyebrow": "ABOUT ME",
+    "titleStart": "Building with",
+    "titleAccent": "purpose",
+
+    "photoAlt": "Liubov Pohudina",
+    "available": "Open to opportunities",
+
+    "role": "FULL STACK DEVELOPER • AI AUTOMATION ENGINEER",
+
+    "headlineStart": "I turn ideas into",
+    "headlineAccent": "working systems",
+    "headlineEnd": "that create real value.",
+
+    "description": "I’m a full-stack developer focused on building modern web applications, scalable backend functionality, and AI-powered automation systems. I enjoy working across the entire product flow — from interface and architecture to integrations, APIs, and deployment.",
+
+    "descriptionSecond": "My work combines frontend and backend engineering with automation and AI tools to reduce manual work, improve processes, and create reliable digital products for real business needs.",
+
+    "facts": {
+      "experience": "Years Experience",
+      "projects": "Projects",
+      "focus": "Core Directions"
+    }
+  },
+  "experience": {
+    "eyebrow": "EXPERIENCE",
+    "titleStart": "Professional",
+    "titleAccent": "Journey",
+    "description": "Experience building high-performance web products, improving technical quality, and contributing to AI-powered platforms in fast-moving development teams.",
+
+    "columns": {
+      "period": "Company / Period",
+      "role": "Role",
+      "impact": "Contribution & Impact"
+    },
+
+    "boosta": {
+      "description": "Frontend development in a high-load arbitration environment with a strong focus on performance, technical SEO, and infrastructure optimization.",
+      "highlights": {
+        "performance": "Developed and optimized high-performance web applications in a fast-paced, high-load environment.",
+        "seo": "Focused on page speed, technical SEO, and Cloudflare integration.",
+        "indexing": "Improved indexing, accessibility, and overall technical quality of web pages.",
+        "environment": "Worked within an arbitration team where speed, reliability, and rapid iteration were critical."
+      }
+    },
+
+    "revelint": {
+      "description": "Frontend development for EVA-I, an AI-powered business automation product focused on modern interfaces and reusable product architecture.",
+      "highlights": {
+        "landings": "Developed landing pages and reusable UI components for the EVA-I product.",
+        "auth": "Implemented authorization flows and application interface functionality.",
+        "seo": "Improved SEO, accessibility, and frontend structure.",
+        "analytics": "Integrated Google Analytics and supported product analytics."
+      }
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

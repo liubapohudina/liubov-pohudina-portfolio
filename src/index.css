@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&family=Manrope:wght@300;400;500;600&display=swap');
+
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-accent {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #f5f7f2;
+  background: #050807;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(184, 255, 72, 0.04),
+      transparent 35%
+    ),
+    #050807;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+.project-preview {
+  position: relative;
+  isolation: isolate;
+}
+
+.project-preview__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+  -webkit-mask-image: radial-gradient(
+    ellipse 84% 80% at 50% 48%,
+    #000 0%,
+    #000 48%,
+    rgba(0, 0, 0, 0.98) 58%,
+    rgba(0, 0, 0, 0.85) 68%,
+    rgba(0, 0, 0, 0.55) 78%,
+    rgba(0, 0, 0, 0.2) 89%,
+    transparent 100%
+  );
+
+  mask-image: radial-gradient(
+    ellipse 84% 80% at 50% 48%,
+    #000 0%,
+    #000 48%,
+    rgba(0, 0, 0, 0.98) 58%,
+    rgba(0, 0, 0, 0.85) 68%,
+    rgba(0, 0, 0, 0.55) 78%,
+    rgba(0, 0, 0, 0.2) 89%,
+    transparent 100%
+  );
+}
+
+.project-preview::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 88%;
+  height: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 45%;
+  background: rgb(30 254 133 / 26%);
+  filter: blur(105px);
+  pointer-events: none;
+}
+
+.project-preview::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+
+  left: 5%;
+  right: 5%;
+  bottom: -2%;
+
+  height: 22%;
+
+  background: linear-gradient(
+    to top,
+    #030706 0%,
+    rgba(3, 7, 6, 0.72) 30%,
+    rgba(3, 7, 6, 0.25) 65%,
+    transparent 100%
+  );
+
+  filter: blur(5px);
+
+  pointer-events: none;
+}
