@@ -3,6 +3,139 @@ import type { Project } from '../types/project';
 export const projects: Project[] = [
   {
     id: 1,
+    slug: 'ai-lead-qualification-automation',
+
+    title: 'AI-Powered Lead Qualification & Marketing Automation',
+
+    category: {
+      en: 'AI AUTOMATION',
+      uk: 'AI-АВТОМАТИЗАЦІЯ',
+    },
+
+    description: {
+      en: 'An end-to-end lead automation system that captures website inquiries, qualifies leads with AI, syncs customer data with CRM and marketing tools, and automatically routes contacts based on purchase intent.',
+      uk: 'Комплексна система автоматизації лідів, яка отримує заявки з вебсайту, кваліфікує їх за допомогою AI, синхронізує дані з CRM і маркетинговими сервісами та автоматично маршрутизує контакти за рівнем зацікавленості.',
+    },
+
+    technologies: [
+      'n8n',
+      'Google Gemini',
+      'Wix',
+      'Zoho CRM',
+      'Klaviyo',
+      'Google Sheets',
+      'Telegram',
+      'Webhooks',
+      'REST API',
+      'JavaScript',
+      'JSON',
+    ],
+
+    image: {
+      desktop: '/images/projects/ai-lead-automation/preview.webp',
+      mobile: '/images/projects/ai-lead-automation/preview-mobile.webp',
+      alt: {
+        en: 'AI-powered lead qualification and marketing automation workflow',
+        uk: 'AI-воркфлоу для кваліфікації лідів та маркетингової автоматизації',
+      },
+    },
+
+    details: {
+      year: '2026',
+
+      role: {
+        en: 'AI Automation Engineer',
+        uk: 'AI Automation Engineer',
+      },
+
+      type: {
+        en: 'AI Lead Automation System',
+        uk: 'AI-система автоматизації лідів',
+      },
+
+      overview: {
+        en: 'An automated lead-management system built with n8n that connects a beauty salon website with AI qualification, CRM, messaging, spreadsheets and marketing automation. Every website submission is processed, classified and distributed across multiple business systems automatically.',
+        uk: 'Автоматизована система керування лідами на базі n8n, яка поєднує сайт салону краси з AI-кваліфікацією, CRM, месенджером, таблицями та маркетинговою автоматизацією. Кожна заявка з сайту автоматично обробляється, класифікується та передається у відповідні бізнес-системи.',
+      },
+
+      challenge: {
+        en: 'Website leads had to be manually reviewed, copied into spreadsheets and CRM systems, categorized by intent and prepared for follow-up communication. This created repetitive work and increased the risk of delayed or missed inquiries.',
+        uk: 'Заявки з сайту потрібно було вручну переглядати, переносити в таблиці та CRM, визначати рівень зацікавленості клієнта й готувати контакт до подальшої комунікації. Це створювало повторювану ручну роботу та ризик затримок або пропущених звернень.',
+      },
+
+      solution: {
+        en: 'I built a multi-channel automation that receives Wix form submissions through a webhook, transforms the data, stores leads in Google Sheets, sends Telegram notifications, creates leads in Zoho CRM, analyzes intent with Google Gemini and routes Hot, Warm and Cold leads into corresponding Klaviyo lists.',
+        uk: 'Я побудувала багатоканальну автоматизацію, яка отримує заявки з Wix через webhook, трансформує дані, зберігає ліди в Google Sheets, надсилає Telegram-сповіщення, створює ліди в Zoho CRM, аналізує намір клієнта через Google Gemini та розподіляє Hot, Warm і Cold ліди у відповідні списки Klaviyo.',
+      },
+
+      process: [
+        {
+          title: {
+            en: 'Data Capture & Transformation',
+            uk: 'Збір і трансформація даних',
+          },
+          description: {
+            en: 'Received Wix form submissions through a webhook and transformed form fields into a normalized lead structure.',
+            uk: 'Отримувала заявки з Wix через webhook і перетворювала поля форми у стандартизовану структуру ліда.',
+          },
+        },
+        {
+          title: {
+            en: 'AI Lead Qualification',
+            uk: 'AI-кваліфікація лідів',
+          },
+          description: {
+            en: 'Used Google Gemini with structured output to classify leads as Hot, Warm or Cold based on customer intent.',
+            uk: 'Використала Google Gemini зі структурованим output для класифікації лідів як Hot, Warm або Cold залежно від наміру клієнта.',
+          },
+        },
+        {
+          title: {
+            en: 'Multi-Channel Orchestration',
+            uk: 'Багатоканальна оркестрація',
+          },
+          description: {
+            en: 'Connected Google Sheets, Telegram, Zoho CRM and Klaviyo into one automated workflow with routing and fallback logic.',
+            uk: 'Об’єднала Google Sheets, Telegram, Zoho CRM і Klaviyo в єдиний автоматизований workflow з маршрутизацією та fallback-логікою.',
+          },
+        },
+      ],
+
+      results: [
+        {
+          value: '100%',
+          label: {
+            en: 'Automated lead routing',
+            uk: 'Автоматична маршрутизація лідів',
+          },
+        },
+        {
+          value: '3',
+          label: {
+            en: 'AI qualification states',
+            uk: 'Стани AI-кваліфікації',
+          },
+        },
+        {
+          value: '4+',
+          label: {
+            en: 'Connected business systems',
+            uk: 'Підключені бізнес-системи',
+          },
+        },
+      ],
+    },
+
+    links: {
+      live: 'https://liuban8n.wixsite.com/my-site-2',
+      notion:
+        'https://lunar-sting-548.notion.site/AI-Powered-Lead-Qualification-Marketing-Automation-3cfb235693078069aed3d9dfd69da072',
+    },
+
+    featured: true,
+  },
+  {
+    id: 2,
     slug: 'ai-audio-automation',
 
     title: 'AI Audio Processing & Automation System',
@@ -131,7 +264,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 2,
+    id: 3,
     slug: 'renovation-business',
 
     title: 'Renovation Business Website',
@@ -222,7 +355,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     slug: 'taskpro',
 
     title: 'TaskPro',
@@ -293,7 +426,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     slug: 'brushbuddy',
 
     title: 'BrushBuddy',
@@ -350,7 +483,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     slug: 'food-boutique',
 
     title: 'Food Boutique',
@@ -406,7 +539,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     slug: 'aquatrack',
 
     title: 'AquaTrack',

@@ -12,7 +12,6 @@ import {
   NextIcon,
   NodeIcon,
   ReactIcon,
-  SoftSkillsIcon,
   SwaggerIcon,
   TypeScriptIcon,
 } from '../icons/icons';
@@ -45,14 +44,19 @@ const skillCards: SkillCard[] = [
     icon: <AutomationIcon size={40} />,
   },
   {
-    titleKey: 'skills.devops.title',
-    descriptionKey: 'skills.devops.description',
+    titleKey: 'skills.aiAgents.title',
+    descriptionKey: 'skills.aiAgents.description',
+    icon: <AutomationIcon size={40} />,
+  },
+  {
+    titleKey: 'skills.integrations.title',
+    descriptionKey: 'skills.integrations.description',
     icon: <DevOpsIcon size={40} />,
   },
   {
-    titleKey: 'skills.soft.title',
-    descriptionKey: 'skills.soft.description',
-    icon: <SoftSkillsIcon size={40} />,
+    titleKey: 'skills.devops.title',
+    descriptionKey: 'skills.devops.description',
+    icon: <DevOpsIcon size={40} />,
   },
 ];
 
@@ -82,16 +86,36 @@ const technologies: TechItem[] = [
     icon: <N8nIcon size={32} className="text-[#d4f66a]" />,
   },
   {
+    label: 'Google Gemini',
+    icon: <AutomationIcon size={32} className="text-[#8ab4f8]" />,
+  },
+  {
+    label: 'Zoho CRM',
+    icon: <BackendIcon size={32} className="text-[#e65f5c]" />,
+  },
+  {
+    label: 'Klaviyo',
+    icon: <AutomationIcon size={32} className="text-[#f4f4f4]" />,
+  },
+  {
+    label: 'Telegram',
+    icon: <CloudflareIcon size={32} className="text-[#2AABEE]" />,
+  },
+  {
+    label: 'Google Sheets',
+    icon: <AnalyticsIcon size={32} className="text-[#34A853]" />,
+  },
+  {
+    label: 'Wix',
+    icon: <FrontendIcon size={32} className="text-white" />,
+  },
+  {
     label: 'Swagger',
     icon: <SwaggerIcon size={32} className="text-[#8acb54]" />,
   },
   {
     label: 'Cloudflare',
     icon: <CloudflareIcon size={32} className="text-[#f59d26]" />,
-  },
-  {
-    label: 'GA4',
-    icon: <AnalyticsIcon size={32} className="text-[#f6a623]" />,
   },
 ];
 
@@ -133,11 +157,12 @@ export const Skills = () => {
         {/* SKILL CARDS */}
         <div
           className="
-            mt-10 grid
-            grid-cols-1 gap-4
-            sm:grid-cols-2
-            lg:grid-cols-5
-          "
+    mx-auto mt-12 grid
+    max-w-full
+    grid-cols-1 gap-5
+    sm:grid-cols-2
+    lg:grid-cols-3
+  "
         >
           {skillCards.map((skill) => (
             <article
@@ -204,11 +229,12 @@ export const Skills = () => {
         >
           <div
             className="
-              grid grid-cols-2 gap-3
-              sm:grid-cols-3
-              md:grid-cols-5
-              lg:grid-cols-9
-            "
+    grid grid-cols-2 gap-3
+    sm:grid-cols-3
+    md:grid-cols-4
+    lg:grid-cols-5
+    xl:grid-cols-7
+  "
           >
             {technologies.map((technology) => (
               <div

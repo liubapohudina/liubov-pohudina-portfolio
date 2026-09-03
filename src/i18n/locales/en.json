@@ -55,6 +55,14 @@
     "soft": {
       "title": "Soft Skills",
       "description": "Leadership, Teamwork, Responsibility, Time Management"
+    },
+    "aiAgents": {
+      "title": "AI Agents",
+      "description": "Designing AI-powered agents for lead qualification, decision-making, structured outputs and workflow automation."
+    },
+    "integrations": {
+      "title": "API Integrations",
+      "description": "Connecting websites, CRMs, marketing platforms and external services through APIs, webhooks and automated workflows."
     }
   },
   "projects": {
