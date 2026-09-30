@@ -2,6 +2,264 @@ import type { Project } from '../types/project';
 
 export const projects: Project[] = [
   {
+    id: 8,
+    slug: 'ai-knowledge-base-rag-qdrant',
+
+    title: 'AI Knowledge Base — RAG Architecture & Qdrant',
+
+    category: {
+      en: 'AI AUTOMATION',
+      uk: 'AI-АВТОМАТИЗАЦІЯ',
+    },
+
+    description: {
+      en: 'An AI knowledge base built around Retrieval-Augmented Generation (RAG), using Qdrant vector search to retrieve relevant context and generate grounded answers from indexed knowledge.',
+      uk: 'AI-база знань на основі Retrieval-Augmented Generation (RAG), що використовує векторний пошук Qdrant для отримання релевантного контексту та формування відповідей на основі проіндексованих знань.',
+    },
+
+    technologies: [
+      'RAG',
+      'Qdrant',
+      'Vector Database',
+      'Embeddings',
+      'Semantic Search',
+      'LLM',
+    ],
+
+    image: {
+      desktop: '/images/projects/ai-knowledge-base/preview.webp',
+      mobile: '/images/projects/ai-knowledge-base/preview-mobile.webp',
+      alt: {
+        en: 'AI Knowledge Base with RAG architecture and Qdrant vector search',
+        uk: 'AI-база знань з RAG-архітектурою та векторним пошуком Qdrant',
+      },
+    },
+
+    details: {
+      year: '2026',
+
+      role: {
+        en: 'AI Automation Engineer',
+        uk: 'AI Automation Engineer',
+      },
+
+      type: {
+        en: 'RAG Knowledge Base System',
+        uk: 'RAG-система бази знань',
+      },
+
+      overview: {
+        en: 'An AI knowledge system designed to retrieve relevant information from an indexed knowledge base before generating an answer. The architecture uses embeddings and Qdrant vector search to provide the language model with context that is relevant to each user query.',
+        uk: 'AI-система знань, спроєктована так, щоб перед генерацією відповіді знаходити релевантну інформацію у проіндексованій базі знань. Архітектура використовує embeddings і векторний пошук Qdrant, щоб передавати мовній моделі контекст, релевантний до кожного запиту користувача.',
+      },
+
+      challenge: {
+        en: 'A standalone language model does not reliably know private or domain-specific documents and may answer without the required source context. The system needed a retrieval layer that could search stored knowledge semantically before generation.',
+        uk: 'Окрема мовна модель не має надійного доступу до приватних або вузькоспеціалізованих документів і може відповідати без необхідного контексту. Системі був потрібен retrieval-рівень, який виконує семантичний пошук у збережених знаннях перед генерацією відповіді.',
+      },
+
+      solution: {
+        en: 'I designed a RAG pipeline that converts knowledge into embeddings, stores vector representations in Qdrant, retrieves the most relevant context for each question and passes that context to the LLM for grounded response generation.',
+        uk: 'Я спроєктувала RAG-pipeline, який перетворює знання на embeddings, зберігає векторні представлення у Qdrant, знаходить найбільш релевантний контекст для кожного запиту та передає його LLM для генерації відповіді на основі знайдених даних.',
+      },
+
+      process: [
+        {
+          title: {
+            en: 'Knowledge Ingestion',
+            uk: 'Індексація знань',
+          },
+          description: {
+            en: 'Prepared source knowledge for retrieval by structuring content into searchable chunks and vector representations.',
+            uk: 'Підготувала джерела знань до пошуку, структурувавши контент у пошукові chunks та векторні представлення.',
+          },
+        },
+        {
+          title: {
+            en: 'Vector Storage & Search',
+            uk: 'Векторне зберігання та пошук',
+          },
+          description: {
+            en: 'Used Qdrant as the vector database for semantic similarity search across the indexed knowledge base.',
+            uk: 'Використала Qdrant як векторну базу даних для семантичного пошуку за схожістю у проіндексованій базі знань.',
+          },
+        },
+        {
+          title: {
+            en: 'RAG Answer Generation',
+            uk: 'Генерація відповідей через RAG',
+          },
+          description: {
+            en: 'Retrieved relevant context for each user question and supplied it to the LLM so answers are based on the knowledge base rather than model memory alone.',
+            uk: 'Для кожного запиту отримувала релевантний контекст і передавала його LLM, щоб відповіді базувалися на даних бази знань, а не лише на внутрішніх знаннях моделі.',
+          },
+        },
+      ],
+
+      results: [
+        {
+          value: 'RAG',
+          label: {
+            en: 'Grounded answer architecture',
+            uk: 'Архітектура grounded-відповідей',
+          },
+        },
+        {
+          value: 'Qdrant',
+          label: {
+            en: 'Vector knowledge storage',
+            uk: 'Векторне сховище знань',
+          },
+        },
+        {
+          value: 'Semantic',
+          label: {
+            en: 'Knowledge retrieval',
+            uk: 'Пошук по базі знань',
+          },
+        },
+      ],
+    },
+
+    links: {
+      notion:
+        'https://lunar-sting-548.notion.site/AI-Knowledge-Base-RAG-Architecture-Qdrant-3e5b2356930780379e72e11b89a9eba8',
+    },
+
+    featured: true,
+  },
+
+  {
+    id: 9,
+    slug: 'ai-sales-ecosystem',
+
+    title: 'AI Sales Ecosystem — From First Contact to CEO Report',
+
+    category: {
+      en: 'AI AUTOMATION',
+      uk: 'AI-АВТОМАТИЗАЦІЯ',
+    },
+
+    description: {
+      en: 'A three-workflow AI sales automation ecosystem that qualifies inbound leads with a 24/7 BANT chatbot, analyzes sales dialogs and automatically delivers recurring CEO reports.',
+      uk: 'Екосистема AI-автоматизації продажів із трьох взаємопов’язаних workflow: 24/7 BANT-чатбот кваліфікує вхідні ліди, система аналізує діалоги та автоматично формує регулярні звіти для CEO.',
+    },
+
+    technologies: [
+      'n8n',
+      'Claude',
+      'Zoho CRM',
+      'PostgreSQL',
+      'Google Sheets',
+      'Telegram Bot API',
+      'AI Agents',
+      'Prompt Engineering',
+    ],
+
+    image: {
+      desktop: '/images/projects/ai-sales-ecosystem/preview.webp',
+      mobile: '/images/projects/ai-sales-ecosystem/preview-mobile.webp',
+      alt: {
+        en: 'AI Sales Ecosystem automation workflows from lead qualification to CEO reporting',
+        uk: 'AI Sales Ecosystem — автоматизація від кваліфікації ліда до звітності для CEO',
+      },
+    },
+
+    details: {
+      year: '2026',
+
+      role: {
+        en: 'AI Automation Engineer',
+        uk: 'AI Automation Engineer',
+      },
+
+      type: {
+        en: 'Multi-Workflow AI Sales Automation',
+        uk: 'Багатопроцесна AI-автоматизація продажів',
+      },
+
+      overview: {
+        en: 'A three-workflow automation system for a B2B sales team. It combines a 24/7 BANT qualification chatbot, daily dialog analysis and an automated weekly CEO report into one connected sales ecosystem.',
+        uk: 'Система з трьох взаємопов’язаних workflow для B2B sales-команди. Вона об’єднує 24/7 BANT-кваліфікацію через AI-чатбот, щоденний аналіз діалогів та автоматичний щотижневий звіт для CEO в єдину sales-екосистему.',
+      },
+
+      challenge: {
+        en: 'Inbound leads could wait hours for the first response, qualification required manual sales time, and weekly management reporting had to be prepared manually from scattered conversation and CRM data.',
+        uk: 'Вхідні ліди могли чекати години на першу відповідь, кваліфікація забирала ручний час sales-команди, а щотижневу управлінську звітність потрібно було вручну готувати з розрізнених даних діалогів і CRM.',
+      },
+
+      solution: {
+        en: 'I designed and built three connected n8n workflows end-to-end: a BANT chatbot that scores leads and creates them in Zoho CRM, a daily dialog analyzer that writes structured insights to Google Sheets, and a scheduled CEO report delivered automatically through Telegram. PostgreSQL provides persistent chat memory for the conversational flow.',
+        uk: 'Я спроєктувала та побудувала end-to-end три пов’язані n8n-workflow: BANT-чатбот, який оцінює лідів і створює їх у Zoho CRM; щоденний аналізатор діалогів, який записує структуровані інсайти у Google Sheets; та запланований CEO-звіт, що автоматично надсилається через Telegram. PostgreSQL використовується для постійної пам’яті чат-діалогів.',
+      },
+
+      process: [
+        {
+          title: {
+            en: '24/7 BANT Qualification',
+            uk: '24/7 BANT-кваліфікація',
+          },
+          description: {
+            en: 'Built an AI chatbot that runs a structured BANT dialog, scores inbound leads from 0–100 and automatically creates qualified lead records in Zoho CRM.',
+            uk: 'Побудувала AI-чатбот, який проводить структурований BANT-діалог, оцінює вхідних лідів за шкалою 0–100 та автоматично створює записи кваліфікованих лідів у Zoho CRM.',
+          },
+        },
+        {
+          title: {
+            en: 'Daily Dialog Analysis',
+            uk: 'Щоденний аналіз діалогів',
+          },
+          description: {
+            en: 'Automated daily analysis of sales conversations and delivery of structured team data to Google Sheets.',
+            uk: 'Автоматизувала щоденний аналіз sales-діалогів і передачу структурованих даних для команди у Google Sheets.',
+          },
+        },
+        {
+          title: {
+            en: 'Automated CEO Reporting',
+            uk: 'Автоматична звітність для CEO',
+          },
+          description: {
+            en: 'Created a scheduled workflow that compiles the weekly sales report and delivers it to the CEO in Telegram automatically.',
+            uk: 'Створила scheduled workflow, який формує щотижневий sales-звіт і автоматично надсилає його CEO у Telegram.',
+          },
+        },
+      ],
+
+      results: [
+        {
+          value: '<5 sec',
+          label: {
+            en: 'First response time',
+            uk: 'Час першої відповіді',
+          },
+        },
+        {
+          value: '3 min',
+          label: {
+            en: 'Lead qualification time',
+            uk: 'Час кваліфікації ліда',
+          },
+        },
+        {
+          value: '0 min',
+          label: {
+            en: 'Weekly CEO report prep',
+            uk: 'Підготовка щотижневого CEO-звіту',
+          },
+        },
+      ],
+    },
+
+    links: {
+      notion:
+        'https://lunar-sting-548.notion.site/AI-Sales-Ecosystem-From-First-Contact-to-CEO-Report-3eab2356930780ae909cc758371070bd',
+    },
+
+    featured: true,
+  },
+
+  {
     id: 1,
     slug: 'ai-lead-qualification-automation',
 
